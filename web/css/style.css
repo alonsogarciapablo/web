@@ -3,7 +3,6 @@
   src: url('./GeosansLight.ttf');
 } 
 
-
 * {
   margin:0;
   padding:0;
@@ -18,6 +17,11 @@ body {
 
 #sidebar {
   background:url(../images/pablo-alonso-garcia.jpg) center top no-repeat white;
+  border-right:5px solid white;
+  border-bottom:5px solid white;
+  -moz-box-shadow: 0px 3px 3px #333;
+  -webkit-box-shadow: 0px 3px 3px #333;
+  box-shadow: 0px 3px 3px #333;
   padding-top:23em;
   position:fixed;
   top:0;
@@ -86,28 +90,33 @@ li.picasa a {
 
 #contact {
   background-color:#999;
-  -moz-box-shadow: 0px 3px 5px #666;
-  -webkit-box-shadow: 0px 3px 5px #666;
-  box-shadow: 0px 3px 5px #666;
 }
 #email {
-  margin:1em 0;
+  margin:2em 0 0 0;
   text-align:center;
-  font-weight:bold;
+
 }
 #email > a {
-  background:url(../images/email.png) left 52% no-repeat;
+  background:url(../images/email.png) 0.5em 52% no-repeat #3CF;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
   color:#004D99;
-  font-size:1.4em;
-  padding:1em 0 1em 1.5em;
+  text-decoration:none;
+  font-size:1.6em;
+  padding:0.5em 0.5em 0.5em 2em;
+}
+#email > a:hover {
+  background-color:#004D99;
+  color:#3CF;
 }
 
 /* CONTENTS */
 
 #contents {
   color:#a9c2eb;
-  padding:2em;
-  width:80em;
+  padding:2em 3em;
+  width:78em;
   position:absolute;
   top:0;
   left:20em;
