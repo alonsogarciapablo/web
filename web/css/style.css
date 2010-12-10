@@ -1,0 +1,139 @@
+@font-face {
+  font-family: GeosansLight;
+  src: url('./GeosansLight.ttf');
+} 
+
+
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  background:url(../images/background.jpg) repeat-x;
+  font-size:x-small;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+  background:url(../images/pablo-alonso-garcia.jpg) center top no-repeat white;
+  padding-top:23em;
+  position:fixed;
+  top:0;
+  width:20em;
+}
+h1 {
+  background:url(../images/header.png) center top no-repeat;
+  height:8em;
+  text-indent:-4000px;
+}
+#sidebar h2 {
+  color:#333;
+  font-size:1.8em;
+  text-align:center;
+}
+.sidebar-box {
+  padding:2em 1em;
+}
+
+/** PROFILES **/
+
+#profiles {
+  background-color:#CCC;
+  border-top:1px solid #999;
+  overflow:hidden;
+}
+#profiles > ul {
+  margin-top:1em;
+  list-style-type:none;
+}
+#profiles > ul > li {
+  float:left;
+  margin-left:0.5em;
+}
+#profiles > ul > li:first-child {
+  float:left;
+  margin-left:0;
+}
+#profiles > ul > li > a {
+  display:block;
+  height:3.2em;
+  text-indent:-1000em;
+  width:3.2em;
+}
+li.linkedin a {  
+  background:url(../images/linkedin_32.png) no-repeat;
+}
+
+li.wordpress a {  
+  background:url(../images/wordpress_32.png) no-repeat;
+}
+
+li.twitter a {  
+  background:url(../images/twitter_32.png) no-repeat;
+}
+
+li.facebook a {  
+  background:url(../images/facebook_32.png) no-repeat;
+}
+
+li.picasa a {  
+  background:url(../images/picasa_32.png) no-repeat;
+}
+
+/** CONTACT FORM **/
+
+#contact {
+  background-color:#999;
+  -moz-box-shadow: 0px 3px 5px #666;
+  -webkit-box-shadow: 0px 3px 5px #666;
+  box-shadow: 0px 3px 5px #666;
+}
+#email {
+  margin:1em 0;
+  text-align:center;
+  font-weight:bold;
+}
+#email > a {
+  background:url(../images/email.png) left 52% no-repeat;
+  color:#004D99;
+  font-size:1.4em;
+  padding:1em 0 1em 1.5em;
+}
+
+/* CONTENTS */
+
+#contents {
+  color:#a9c2eb;
+  padding:2em;
+  width:80em;
+  position:absolute;
+  top:0;
+  left:20em;
+}
+#contents a {
+  color:#3CF;
+  font-weight:bold;
+}
+#contents > h2 {
+  color:white;
+  font-family:GeosansLight;
+  font-size:4.5em;
+  margin-bottom:0.25em;
+}
+#contents > h3 {
+  color:white;
+  font-size:2em;
+  margin-bottom:0.5em;
+  text-shadow: #003366 0px 2px 1px;
+}
+#contents > p {
+  font-size:1.6em;
+  line-height:140%;
+  margin-bottom:1em;
+}
+#contents > p.intro {
+  font-size:1.8em;
+}
+
