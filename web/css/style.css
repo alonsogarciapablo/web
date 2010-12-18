@@ -86,7 +86,7 @@ li.picasa a {
   background:url(../images/picasa_32.png) no-repeat;
 }
 
-/** CONTACT FORM **/
+/** CONTACT **/
 
 #contact {
   background-color:#999;
@@ -145,4 +145,6 @@ li.picasa a {
 #contents > p.intro {
   font-size:1.8em;
 }
-
+#contents > p#translate {
+  float:right;
+}
